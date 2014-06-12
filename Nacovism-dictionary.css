@@ -1,0 +1,33 @@
+﻿body {
+    width:600px;
+    background:lightgray;
+    position:relative;
+}
+
+dt {
+    font-style:italic;
+}
+
+#the-dictionary {        
+    width:300px;
+    float:left;
+}
+
+#sugest-a-Nakovisum {
+    width:300px;
+    position:absolute;
+    margin-left:600px;
+    left:50px;
+    top:50px;
+}
+
+#user-nakovism {
+    margin-top:10px;
+    width:250px;
+}
+
+#user-meaning-nakovism {
+    margin-top:10px;
+    vertical-align:text-top;
+    width:250px;
+}
