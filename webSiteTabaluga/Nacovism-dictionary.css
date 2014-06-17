@@ -42,7 +42,7 @@ dt {
     width:250px;
 }
 
-.submit { 
+/*.submit { 
     margin-top:10px;
     background-image: url("dragon.png");
     background-position:  0px 0px;
@@ -56,6 +56,15 @@ dt {
 }
 .submit:hover{ 
       background-image: url("dragon-send.png");
+}*/
+
+button {
+    margin-top:10px;
+    border-radius:25px;
+}
+
+button:hover {
+    background-image: url("dragon-send.png");
 }
 
 h2 {
