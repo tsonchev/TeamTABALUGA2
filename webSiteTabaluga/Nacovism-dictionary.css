@@ -10,9 +10,18 @@
 }
 
 legend {
-    position:relative; 
-    margin-left: 50%;
-}​
+    position:relative;
+    left:49%;    
+}
+#nacovism-sugest {
+    position:relative;
+    left:12%;  
+}
+
+#nacovism-letter {
+    position:relative;
+    left:25%; 
+}
 
 #the-dictionary {        
     width:300px;
