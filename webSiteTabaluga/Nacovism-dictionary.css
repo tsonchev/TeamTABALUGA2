@@ -8,9 +8,11 @@
     width:25px;
     height:25px;
 }
-dt {
-    font-style:italic;
-}
+
+legend {
+    position:relative; 
+    left: 50%;
+}​
 
 #the-dictionary {        
     width:300px;
