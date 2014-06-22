@@ -5,7 +5,7 @@ Team TABALUGA 2's repository for Web Fundamentals (HTML/CSS) May 2014 in SoftUni
 
 Teamwork Project Assignment for the Web Fundamentals (HTML & CSS) Course @ SoftUni
 Design and implement a funny Web site about SoftUni using HTML, CSS and optionally JavaScript. The site could hold jokes, funny pictures, funny videos, funny artwork, programmer's jokes or anything else that the people at the Software University could find funny, entertaining and enjoyable and could make them smile. Your jokes could involve the people at SoftUni (e.g. the trainers), the students, the training labs and facilities, the training courses, the training videos, the homework, the exams, etc.
-Requirements
+<h2>Requirements</h2>
 •	Use HTML & CSS – the major part of your work should be HTML & CSS written by your team
 o	You may optionally use JavaScript and JS libraries to simplify your work
 o	You may optionally use PHP or other server-side scripting but not as primary technology (e.g. you may use PHP for including HTML fragments to avoid repeating code)
@@ -58,7 +58,7 @@ o	Team name, list of team members
 o	Contributions of each team member
 •	Any other information (optionally)
 
-Public Project Defense
+<h2>Public Project Defense</h2>
 Each team will have to deliver a public defense of its work in front of the other students, trainers and assistants. Teams will have only 10 minutes for the following:
 •	Demonstrate the site (very shortly).
 •	Show the source code and explain how it works.
