@@ -1,4 +1,4 @@
-TeamTABALUGA2
+﻿TeamTABALUGA2
 =============
 
 Team TABALUGA 2's repository for Web Fundamentals (HTML/CSS) May 2014 in SoftUni.bg
@@ -57,6 +57,7 @@ o	Project name and purpose – what you have created?
 o	Team name, list of team members
 o	Contributions of each team member
 •	Any other information (optionally)
+
 Public Project Defense
 Each team will have to deliver a public defense of its work in front of the other students, trainers and assistants. Teams will have only 10 minutes for the following:
 •	Demonstrate the site (very shortly).
