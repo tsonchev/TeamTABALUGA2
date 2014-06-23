@@ -11,13 +11,11 @@ section {
     position:relative;
     text-align:justify;
     width:100%;
-    background: darkgray;
 }
 
 #select-div {   
     width:100%;
     height:50px;
-    background: gray;
 }
 
 #nakovisms {
@@ -27,18 +25,11 @@ section {
     overflow:scroll;
     right:0px;
     top:0px;
-    background:orange;
 }
 
 cite:before, cite:after{
     content:'"';
 }
-
-/*#magnifier {
-    margin-left:5px;
-    width:25px;
-    height:25px;
-}*/
 
 legend {
     position:relative;
@@ -51,7 +42,7 @@ legend {
     float:right;
     left:0px;
     top:0px;
-    background:blue;
+
 }
 
     #sugest-a-Nakovisum fieldset {
@@ -67,29 +58,13 @@ input {
     width:325px;
 }
 
-/*.submit { 
-    margin-top:10px;
-    background-image: url("dragon.png");
-    background-position:  0px 0px;
-    background-repeat: no-repeat;
-    width: 307px;
-    height: 323px;
-    border: 0px;
-    background-color: none;
-    cursor: pointer;
-    outline: 0;
-}
-.submit:hover{ 
-      background-image: url("dragon-send.png");
-}*/
-
 button {       
     margin-top:10px;
     border-radius:25px;
 }
 
 button:hover {
-    background-image: url("dragon-send.png");
+    background-image: url("../images/dragon-send.png");
 }
 .italic {
     font-style:italic;
@@ -97,7 +72,6 @@ button:hover {
 
 footer {
     width:50%;
-    background:green;
 }
 
 h2 {

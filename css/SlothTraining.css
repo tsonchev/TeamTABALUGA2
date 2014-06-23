@@ -51,8 +51,7 @@ hr {
     -moz-border-right-colors: none;
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
-    border-image: none;
-    width:30%
+    border-image: none;    
 }
 
 table, th, td {
@@ -77,19 +76,19 @@ th {
     border-right:0.5px solid lightgray;
     vertical-align: middle;
     padding:10px 0 10px 5px;
+    width:25%
 }
     th:last-of-type {
         border-right:0.5px solid #3D99D9;
     }
 
 td {
-    padding:10px;
+    padding:5px;
 }
 
 ul {
     margin:0 5px 5px 5px ; 
-    padding:0 5px 10px 5px;
-     
+    padding:0 5px 10px 5px;     
 }
 
 li {
@@ -120,18 +119,18 @@ dd::before {
 
 
 #pesent::before {
-    content:url(file_presentation.png);
+    content:url(../images/file_presentation.png);
     margin-right:5px;
     vertical-align:top;
 }
 
 #program::before {
-    content:url(file_file.png);
+    content:url(../images/file_file.png);
     margin-right:5px;
     vertical-align:top;
 }
 #video::before {
-    content:url(file_video.png);
+    content:url(../images/file_video.png);
     margin-right:5px;
     vertical-align:top;
 
