@@ -105,7 +105,8 @@ h2.gag {
 	color: #234465;
 	word-wrap: break-word;
 	background-color: #ff9c00;
-	
+	float: left;
+	width: 100%;
 	
 }
 .gag img {
@@ -119,6 +120,8 @@ img.like {
 	margin: 0;
 }
 hr.shiny {
+	float: left;
+	
 	margin-top: 1%;
 	margin-left: 10%;
 	margin-bottom: 4%;
