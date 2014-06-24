@@ -197,18 +197,17 @@ font-size: 12px;
     height:395px;
     overflow:scroll;
 }
-
+#wrapper legend {
+    position:relative;
+    margin-left:49%;    
+}
+ 
 #nacovisms-legend {   
-    left:42% !important; 
+    margin-left:42% !important;
 }
 
 #wrapper  cite:before, #wrapper cite:after{
     content:'"';
-}
-
-#wrapper legend {
-    position:relative;
-    left:49%;    
 }
 
 #wrapper .italic {
@@ -248,4 +247,13 @@ font-size: 12px;
 #sugest-a-Nakovisum button img {
     width:155px;
     height:180px;    
+}
+
+.slothAdv img {
+    width:100%;
+}
+
+.slothAdv ul {
+    list-style-image:url(../images/bullet-dragon.png);
+
 }
