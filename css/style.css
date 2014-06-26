@@ -257,3 +257,163 @@ font-size: 12px;
     list-style-image:url(../images/bullet-dragon.png);     
 }
 
+
+.sloth-training {
+    background-color:lightgray;
+    font-family: "PT Sans",Tahoma,sans-serif;
+    font-size: 14px;
+    color: #5A5A5A;
+}
+
+
+.sloth-training h1 {
+    color: #234465;
+    font-family: inherit;
+    font-size: 24px;
+
+    font-weight: 500;
+    line-height: 1.1;   
+    margin:0 auto;
+}
+
+.sloth-training #list {
+    box-sizing: border-box;
+    margin: 20px 0px 25px;
+    background: none repeat scroll 0% 0% #FFF;
+    padding: 20px !important;
+    box-shadow: 0px 2px 3px #BFBFBF;
+    list-style: none outside none;        
+}
+
+.sloth-training #list, .sloth-training #center {
+    width:920px;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sloth-training p {
+    margin-top:0;
+    text-wrap:avoid;
+    text-align:justify;
+}
+
+.sloth-training strong {
+    font-weight: 700;
+}
+
+
+.sloth-training hr {
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    border-width: 1px 0px 0px;
+    border-style: solid none none;
+    border-color: #EEE -moz-use-text-color -moz-use-text-color;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;    
+}
+
+.sloth-training table, .sloth-training th, .sloth-training td {
+    vertical-align:top;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    border: 0.5px solid lightgray;
+    border-spacing: 0px;
+}
+
+.sloth-training table {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    background: none repeat scroll 0% 0% #FFF;
+}
+.sloth-training th {
+    background-color:#3D99D9;
+    text-align: left;
+    color: white;
+    border:0.5px solid #3D99D9;
+    border-right:0.5px solid lightgray;
+    vertical-align: middle;
+    padding:10px 0 10px 5px;
+    width:25%
+}
+    .sloth-training th:last-of-type {
+        border-right:0.5px solid #3D99D9;
+    }
+
+.sloth-training td {
+    padding:5px;
+}
+
+.sloth-training ul {
+    margin:0 5px 5px 5px ; 
+    padding:0 5px 10px 5px;     
+}
+
+.sloth-training li {
+    list-style-type: none;
+    margin-bottom:10px;    
+}
+
+.sloth-training a {
+    color: #234465;
+    text-decoration:none;
+}
+
+    a:hover {
+        color: #428BCA;
+    }
+
+.sloth-training dl {
+    display:block;
+}
+
+.sloth-training dd::before {
+    content:"\25BA";
+    font-family:Arial;
+    margin-right:3px;
+    vertical-align:top;
+}
+
+
+
+.sloth-training #pesent::before {
+    content:url(../images/file_presentation.png);
+    margin-right:5px;
+    vertical-align:top;
+}
+
+.sloth-training #program::before {
+    content:url(../images/file_file.png);
+    margin-right:5px;
+    vertical-align:top;
+}
+.sloth-training #video::before {
+    content:url(../images/file_video.png);
+    margin-right:5px;
+    vertical-align:top;
+
+}
+
+.sloth-training #usd::before {
+    content:"$";
+    margin-right:5px;
+    vertical-align:top;
+}
+
+.sloth-training #euro::before {
+    content:"И";
+    margin-right:5px;
+    vertical-align:top;
+}
+
+.sloth-training #lv::before {
+    content:"ыт.";
+    margin-right:5px;
+    vertical-align:top;
+}
+
+
