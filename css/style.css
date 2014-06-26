@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'NipCen_s_Print_Unicode'; /*a name to be used later*/
+    src: url('NipCen_s_Print_Unicode.ttf'); /*URL to font*/
+}
+
 /*
  * This CSS is made for the needs of team-project in SoftUni.bg
  * This design is free to use for everyone.
@@ -249,13 +254,20 @@ font-size: 12px;
     height:180px;    
 }
 
+.slothAdv {
+    font-family:NipCen_s_Print_Unicode,Tahoma,sans-serif;  
+    text-shadow: 5px 5px 5px black 
+}
+
 .slothAdv img {
     width:100%;
 }
 
-.slothAdv ul {
-    list-style-image:url(../images/bullet-dragon.png);     
+.slothAdv li {
+    list-style-image:url(../images/bullet-dragon.png);
+    font-size-adjust:1;    
 }
+
 
 
 .sloth-training {
@@ -355,7 +367,7 @@ font-size: 12px;
 
 .sloth-training li {
     list-style-type: none;
-    margin-bottom:10px;    
+    margin-bottom:10px;       
 }
 
 .sloth-training a {
