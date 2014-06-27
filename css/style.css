@@ -263,12 +263,26 @@ font-size: 12px;
     width:100%;
 }
 
-.slothAdv li {
-    list-style-image:url(../images/bullet-dragon.png);
-    font-size-adjust:1;    
+.slothAdv article {
+    font-size-adjust:0.9;
+    vertical-align:middle;  
+    margin-bottom:20px;
+    float:left;
 }
 
+.slothAdv article::before {   
+   content:url(../images/bullet-dragon.png);   
+   padding-right:10px;
+   float:left;      
+}
 
+.slothAdv article::after {   
+    clear:both;
+}
+
+.slothAdv article li{
+    margin-left:35px;
+}
 
 .sloth-training {
     background-color:lightgray;
