@@ -75,6 +75,18 @@ color: #fff;
 background: url(../images/navover.png) repeat-x;
 }
 
+#starting-text a {
+    text-decoration:none;   
+}
+
+#fiction {
+    font-weight:800;
+    font-size: 18px;
+    margin-top:20px;
+    text-align:center;
+    color: #ff9c00;
+}
+
 #headerbotframe {
     background: url(../images/header-bot-frame.png) no-repeat; padding: 5px 0;
 }
@@ -256,7 +268,7 @@ font-size: 12px;
 
 .slothAdv {
     font-family:NipCen_s_Print_Unicode,Tahoma,sans-serif;  
-    text-shadow: 5px 5px 5px black 
+    text-shadow: 5px 5px 15px black 
 }
 
 .slothAdv img {
@@ -264,7 +276,7 @@ font-size: 12px;
 }
 
 .slothAdv article {
-    font-size-adjust:0.9;
+    font-size:20px;
     vertical-align:middle;  
     margin-bottom:20px;
     float:left;
