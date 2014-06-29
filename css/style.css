@@ -19,7 +19,7 @@ padding: 0;
 
 /* fix the size of everything. Like wrapper. */
 .topspace { 
-width: 1000px;
+width: 800px;
 margin: 20px auto;
 }
 
@@ -98,7 +98,7 @@ padding: 0 40px;
 
 .content {
 float: right;
-width: 700px;
+width: 500px;
 margin-top: 10px;
 }
 
@@ -155,7 +155,6 @@ float: left;
 width: 200px;
 background: #234465;
 margin-top: 10px;
-margin-left: 10px;
 }
 
 .sidebar h3 {
@@ -454,7 +453,5 @@ font-size: 12px;
     margin-right:5px;
     vertical-align:top;
 }
-div.slotcontent{
-float: left;
-}
+
 
