@@ -74,6 +74,22 @@ nav.menu ul li a:hover {
 color: #fff;
 background: url(../images/navover.png) repeat-x;
 }
+#team-section {    
+    width:90%;
+}
+    #team-section article {
+        display:inline-block;
+    }
+    #team-section figure {        
+        display:inline-block;
+        font-size:1.2rem;
+        font-family:'NipCen_s_Print_Unicode', 'Times New Roman', sans-serif;
+        width:125px;
+    } 
+    #team-section img {
+       width:100%;
+       display:inline-block;       
+    }
 
 #starting-text a {
     text-decoration:none;   
@@ -333,7 +349,6 @@ font-size: 12px;
 
 .sloth-training p {
     margin-top:0;
-    text-wrap:avoid;
     text-align:justify;
 }
 
