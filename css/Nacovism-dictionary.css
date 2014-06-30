@@ -1,0 +1,83 @@
+﻿#wrapper {
+    width:715px;    
+    background: lightgray;
+}
+h1 {
+    text-align:center;
+    font-size:34px;
+}
+
+section {   
+    position:relative;
+    text-align:justify;
+    width:100%;
+}
+
+#select-div {   
+    width:100%;
+    height:50px;
+}
+
+#nakovisms {
+    float:left;
+    width:50%;
+    height:400px;
+    overflow:scroll;
+    right:0px;
+    top:0px;
+}
+
+cite:before, cite:after{
+    content:'"';
+}
+
+legend {
+    position:relative;
+    left:49%;    
+}
+
+#sugest-a-Nakovisum {
+    width:50%;
+    
+    float:right;
+    left:0px;
+    top:0px;
+
+}
+
+    #sugest-a-Nakovisum fieldset {
+        height:490px;
+    }
+
+#nacovism-sugest-legend, #nacovisms-legend {    
+    left:0%;       
+}
+
+input {
+    margin-top:10px;
+    width:325px;
+}
+
+button {       
+    margin-top:10px;
+    border-radius:25px;
+}
+
+button:hover {
+    background-image: url("../images/dragon-send.png");
+}
+.italic {
+    font-style:italic;
+}
+
+footer {
+    width:50%;
+}
+
+h2 {
+    margin-bottom:5px;
+    margin-top: 5px;
+    padding:0;
+    text-decoration:underline;
+    font-size:28px;
+}
