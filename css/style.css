@@ -50,11 +50,12 @@ font-weight: 100;
 font-size: 30px;
 letter-spacing: -2px;
 }
-
 header h1 a { text-decoration: none; color: #fff; }
 header h1 a:hover { text-decoration: none; border-bottom: 1px solid #F9F7ED; }
 
 header h2 { padding: 0 0 0 70px; margin: 0; color: #ff9c00; font-weight: 100; }
+header h3 { padding: 0 0 0 93px; margin: 0; color: #ff9c00; font-weight: 700; }
+
 
 /* navigation */
 nav.menu {
@@ -199,8 +200,22 @@ hr.shiny {
   h2.gag {
 	text-align: center;
   }
+ 
+  .topheader {
+	height: 100% !important;
+	padding-bottom: 2%;
+  }
 }
-
+@media (max-width:470px) {
+ .logo {
+	width: 33%;
+  }
+}
+@media (max-width:290px) {
+	.logo {
+		display: none;
+	}
+}
 .sidebar h3 {
 height: 40px;
 line-height: 40px;
@@ -232,17 +247,20 @@ margin: 0;
 
 .footer { 
 	text-align: center;
-	height: 42px;
-	line-height: 42px;
+	height: 100%;
+	line-height: 100%;
 	margin-top: 2.5%;
 	color: #fff;
 	font-size: 12px;
 	background-color: #234465;
 }
-.footer p { padding: 0; margin: 0; }
+.footer p { padding: 5px; margin: 0; }
 .footer a { color: #fff; }
 .footer a:hover { text-decoration: underline; }
-
+.footer p img {
+	width: 88px;
+	vertical-align: middle;
+}
 #wrapper section {   
     position:relative;
     text-align:justify;
