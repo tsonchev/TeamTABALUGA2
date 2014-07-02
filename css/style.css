@@ -299,8 +299,9 @@ margin: 0;
 }
 
 #sugest-a-Nakovisum button:hover {
-    background-image: url("../images/dragon-send.png");
-    background-size:90% auto;    
+    background-image: url("../images/nakovism-send.png");
+    background-size:90% auto; 
+	background-position: top right;
     background-repeat:no-repeat;
     background-color: #fff;
 
@@ -328,7 +329,7 @@ margin: 0;
 }
 
 .slothAdv article::before {   
-   content:url(../images/bullet-dragon.png);   
+   content:url(../images/bullet-sloth.png);   
    padding-right:10px;
    float:left;      
 }
@@ -504,4 +505,7 @@ float: left;
 }
 h1:first-child {
 	white-space: pre-wrap;
+}
+.max-width {
+	width: 100%;
 }
