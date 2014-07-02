@@ -62,6 +62,7 @@ nav.menu {
 	line-height: 40px;
 	background-color: #FF9C00;
 	width: 100%;
+	position:relative;
 }
 
 /*  */
@@ -167,6 +168,11 @@ hr.shiny {
 	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+.logo {
+	width: 20%;
+	float: right;
+	margin-top: -20px;
 }
 .sidebar {
 	float: left;
